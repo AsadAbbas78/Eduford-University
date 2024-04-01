@@ -1,0 +1,161 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url(../media/unipic\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+}
+
+.img{
+    background-image: url(../media/lo_g_hat-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 55px;
+    margin-top: 10px;
+}
+
+.img1{
+    margin-left: 40px;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    gap: 650px;
+    padding-top: 30px;
+    position: relative;
+}
+
+nav ul li{
+    
+    list-style: none;
+    display: inline;
+    
+}
+
+
+nav ul li a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: rgb(230, 46, 45);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: 20px;
+    margin-left: -50px; 
+    transition: 0.5s;
+
+}
+
+
+nav ul li a:hover::after{
+width: 57%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+.aboutmain{
+    margin-top: -100px;
+    background-color: rgb(28, 51, 88,0.5);
+    height:34vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.aboutmain h1{
+    font-size: 40px;
+    color: white;
+}
+
+.map{
+    margin-top: 50px;
+    margin-left: 250px;
+    border-radius: 10px;
+    /* filter: invert(100%); */
+}
+
+                      /* next page has been completed */
+.contactchild22{
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+    margin-left: 50px;
+}
+
+.contact23 span h2{
+    line-height: 0.0;
+}
+.contact23 span{
+    font-size: 15px;
+}
+.contact23{
+    margin-top: 20px;
+}
+.contact22{
+    margin-top: 25px;
+    font-size: 30px;
+    line-height: 0.8;
+    color: red;
+}
+
+.blogform{
+    height: 400px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 150px;
+    padding-left: 20px;
+}
+
+.blogform h2{
+    font-size: 20px;
+}
+
+.input1{
+    padding: 10px 0px;
+    width: 580px;
+    background-color: rgb(240, 238, 240);
+    border: none;
+}
+
+.btns7{
+    margin-top: 10px;
+    padding: 15PX 50px;
+    border: 1px solid orange;
+    color: orange;
+    transition: 3s;
+}
+
+.btns7:hover{
+    background-color: orange;
+    color: white;
+}
+
+#textarea{
+background: transparent;
+border: none;
+background-color:rgb(240, 238, 240) ;
+}
+
+.contactmain22{
+    display: flex;
+    padding-left: 180px;
+}
+

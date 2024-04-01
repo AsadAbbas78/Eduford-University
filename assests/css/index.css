@@ -1,0 +1,434 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url(../media/ab\ thk\ hia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.img{
+    background-image: url(../media/lo_g_hat-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 55px;
+    margin-top: 10px;
+}
+
+.img1{
+    margin-left: 40px;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    gap: 650px;
+    padding-top: 30px;
+    position: relative;
+}
+
+nav ul li{
+    
+    list-style: none;
+    display: inline;
+    
+}
+
+
+nav ul li a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: rgb(230, 46, 45);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: 20px;
+    margin-left: -50px; 
+    transition: 0.5s;
+
+}
+
+
+nav ul li a:hover::after{
+width: 57%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+.main{
+    margin-top: -100px;
+    background-color: rgb(28, 51, 88,0.5);
+    height:75vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.main h1{
+    color: white;
+    font-size: 60px;
+}
+
+.main p{
+    color: white;
+}
+
+.btn1{
+    border-radius: 10px;
+    padding: 15px 30px;
+    background: transparent;
+    border: 1px solid white;
+    font-weight: bold;
+    transition: 3s;
+}
+
+.btn1:hover{
+    background-color: rgb(220, 76, 43);
+    color: white;
+}
+
+
+
+            /* nav bar section has been completed */
+
+
+.coursemain{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.coursemain h1{
+    font-size: 40px;
+}
+
+
+.coursepage1{
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 30px 20px;
+    transition: 2s;
+    border-radius: 10px;
+    
+}
+
+.coursemain1{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    padding-left:100px;
+    padding-top: 100px;
+}
+.coursepage1:hover{
+    background-color:rgb(220, 76, 43) ;
+    box-shadow: 0 0 40px rgb(220, 76, 43);
+    color: white;
+    transform: translateY(-20px);
+}
+
+
+             /* course section has been completed */
+
+             /* campus page has been started */
+
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+.child1{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.child1 img{
+    width: 100%;
+}
+
+
+.child2{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+     
+}
+
+.child2:hover{
+    background-color:rgb(220, 76, 43,0.6) ;
+}
+
+
+.child2 h3{
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+} 
+
+.child2:hover h3{
+    bottom: 40%;
+    opacity: 1;
+}
+
+.maincampus1{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 80px;
+}
+
+
+                    /* campus page has been completed */
+
+                 /* facilities section has been started */
+
+
+.facemain1{
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.facemain1 h1{
+    font-size: 40px;
+}
+
+.facechild1{
+    background-image: url(../media/libarary\ 2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+
+.facemain3{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+
+.facechild2{
+    margin-right: 170px;
+
+}
+
+.facechild3{
+    background-image: url(../media/play\ ground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px; 
+}
+
+.facechild4{
+    background-image: url(../media/Healthy-Eating-2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px; 
+}
+
+
+             /* faclities page has been completed */
+
+              /* student page has been started */
+
+    
+.studentmain{
+    padding-top: 150px;
+
+}
+
+.studentmain h1{
+    font-size: 40px;
+    line-height: 1;
+}
+
+.student1{
+    background-image: url(../media/woman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.studentchild1{
+    border-radius: 10px;
+    padding-top: 10px;
+    background-color: rgb(253, 243, 242);
+    height: 200px;
+    width: 700px;
+    display: flex;
+    gap: 20px;
+}
+
+.student2 h3{
+    padding-right: 480px;
+}
+
+.student2 p{
+    padding-right: 50px;
+}
+
+
+.student3{
+    background-image: url(../media/ASSAD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.studentmain1{
+    margin-top: 50px;
+    margin-left: -100px;
+    display: flex;
+    gap: 10px;
+}
+
+.ul21 li{
+display: inline;
+list-style: none;
+color: orange;
+overflow: hidden;
+}
+
+.ul21{
+    margin-top: -20px;
+    padding-right: 450px;
+}
+
+
+
+                  /* student page has been completed */
+
+                  /* enrool page has been started */
+
+.enroll{
+   position: relative;
+}
+
+
+.enrollmain{
+   
+    margin-top: 200px;
+    margin-left: 100px;
+    background-image: url(../media/office\ work.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 70%;
+    position: absolute;
+}
+
+.enrollmain2{
+    margin-top: 200px;
+    margin-left: 100px;
+    background-color: rgb(0, 0, 0,0.6);
+    height: 34vh;
+    width: 88%;
+    padding-top: 50px;
+    position: relative;
+}
+
+.enrollmain2 button{
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    background: transparent;
+    border: 1px solid white;
+    font-weight: bold;
+    transition: 3s;
+    color: orange;
+}
+
+
+.enrollmain2 button:hover{
+    background-color: rgb(220, 76, 43);
+    color: white;
+}
+
+.enrollmain2 h1{
+    color: white;
+}
+
+
+                    /* ENROLL PAGE has been completed */
+
+                    /* about page has been started */
+
+.aboutmain1{
+    padding-top: 200px;
+}
+
+.aboutmain1 h1{
+font-size: 45px;
+}
+
+.abouta a{
+    padding: 0px 5px;
+    color: orange;
+    font-size: 30px;
+}
+
+.h431 i{
+    color: orange;
+    font-size: 35px;
+}
+
+.h431 span{
+    color: blue;
+    font-size: 30px;
+}
+
+
+

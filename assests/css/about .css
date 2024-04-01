@@ -1,0 +1,154 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url(../media/unipic\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+}
+
+.img{
+    background-image: url(../media/lo_g_hat-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 55px;
+    margin-top: 10px;
+}
+
+.img1{
+    margin-left: 40px;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    gap: 650px;
+    padding-top: 30px;
+    position: relative;
+}
+
+nav ul li{
+    
+    list-style: none;
+    display: inline;
+    
+}
+
+
+nav ul li a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: rgb(230, 46, 45);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: 20px;
+    margin-left: -50px; 
+    transition: 0.5s;
+
+}
+
+
+nav ul li a:hover::after{
+width: 57%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+.aboutmain{
+    margin-top: -100px;
+    background-color: rgb(28, 51, 88,0.5);
+    height:34.5vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.aboutmain h1{
+    font-size: 40px;
+    color: white;
+}
+
+                       /* navbar has been completed */
+
+                       /* world page has been started */
+
+
+.world2{
+    background-image: url(../media/eduford\ uni.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btns4{
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    border: 1px solid orange;
+    background: transparent;
+    transition: 1s;
+}
+
+.btns4:hover{
+    background-color: orange;
+    color: white;
+}
+
+
+.worldmain{
+    display: flex;
+    gap: 100px;
+    padding: 200px 150px;
+}
+
+
+                      /* world has been completed */
+                       /* footer has been started */
+
+.aboutmain1{
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutmain1 h1{
+font-size: 45px;
+}
+
+.abouta a{
+    padding: 0px 5px;
+    color: orange;
+    font-size: 30px;
+}
+
+.h431 i{
+    color: orange;
+    font-size: 35px;
+}
+
+.h431 span{
+    color: blue;
+    font-size: 30px;
+}
+
